@@ -1,0 +1,115 @@
+body{
+    width: 100%;
+}
+
+.arriba{
+    background-color: rgba(0, 78, 146, 1);
+ display: flex;
+ justify-content: space-between;
+}
+.cuerpo{
+    background-color:rgba(28, 146, 210, 1) ;
+
+}
+.container-1{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    top: 60px;
+    border-radius: 10px;
+
+  }
+
+.buscar{
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.buscar input{
+width: 300px;
+height: 50px;
+padding: 0 20px;
+font-size: 18px;
+color: black;
+outline: none;
+border: 1px solid silver;
+border-radius: 30px;
+}
+
+.subtitulo{
+    text-align: center;
+    color: white;
+    font-size: 200%;
+}
+
+.contenido{
+  
+			float:left;
+		margin: 10px;
+}
+
+#listas1 li{
+    display: inline;
+    padding-left: 100px;
+    padding-right: 100px;
+   
+}
+
+.encabezado{
+    margin: 0;
+    text-align: center;
+    padding: 5px;
+    position:relative;
+    background-color:#AAD8EF;
+    color: darkred;
+}
+.listas1{
+    color: red;
+}
+
+.botonVerMas{
+    height:30px; 
+    width:100px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+    border-radius: 10px;
+    background-color: rgba(0, 78, 146, 1);
+    color:white
+}
+
+.sitios{
+    display: inline;
+}
+
+.data{
+    background-position: center;
+}
+.Row
+{
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Column
+{
+    display: table-cell;
+    background-color: rgba(28, 146, 210, 1); /*Optional*/
+}
+
+.Enlaces{
+    text-align: center;
+    color: white;
+    font-size: 200%;
+}
